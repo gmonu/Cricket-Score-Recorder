@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cricket Score Recorder</string>
+    <string name="wide_ball">Wide Ball</string>
+    <string name="no_ball">No Ball</string>
+    <string name="_2">2</string>
+    <string name="_6">6</string>
+    <string name="_3">3</string>
+    <string name="_1">1</string>
+    <string name="_4">4</string>
+    <string name="score">Score</string>
+    <string name="total_runs">Total Runs</string>
+    <string name="_0">0</string>
+    <string name="wickets">Wickets</string>
+</resources>
