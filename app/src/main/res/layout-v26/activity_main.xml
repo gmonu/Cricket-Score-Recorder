@@ -5,7 +5,7 @@
     android:id="@+id/monu"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background=""
+    android:background="@color/Aquamarine"
     tools:context=".MainActivity">
 
     <TextView
@@ -17,6 +17,7 @@
         android:layout_marginTop="32dp"
         android:text="@string/total_runs"
         android:textSize="30sp"
+        android:textColor="@color/Black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,53 +25,59 @@
         android:id="@+id/two"
         android:layout_width="72dp"
         android:layout_height="77dp"
-        android:layout_marginEnd="164dp"
-        android:layout_marginRight="164dp"
+        android:layout_marginEnd="188dp"
+        android:layout_marginRight="188dp"
         android:text="@string/_2"
+        android:textColor="@color/BlueViolet"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.392" />
+        app:layout_constraintVertical_bias="0.391" />
 
     <Button
         android:id="@+id/six"
         android:layout_width="72dp"
         android:layout_height="77dp"
         android:text="@string/_6"
+        android:textColor="@color/BlueViolet"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.755"
+        app:layout_constraintHorizontal_bias="0.879"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.564" />
+        app:layout_constraintVertical_bias="0.553" />
 
     <Button
         android:id="@+id/no"
-        android:layout_width="190dp"
-        android:layout_height="78dp"
+        android:layout_width="104dp"
+        android:layout_height="81dp"
         android:text="@string/no_ball"
-        android:textSize="30sp"
+        android:textColor="@color/BlueViolet"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.091"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.721" />
+        app:layout_constraintVertical_bias="0.703" />
 
     <Button
         android:id="@+id/wide"
-        android:layout_width="196dp"
-        android:layout_height="76dp"
+        android:layout_width="86dp"
+        android:layout_height="75dp"
         android:text="@string/wide_ball"
-        android:textSize="30sp"
+        android:textColor="@color/BlueViolet"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/six"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722" />
+        app:layout_constraintVertical_bias="0.696" />
 
     <Button
         android:id="@+id/three"
@@ -80,6 +87,7 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/BlueViolet"
         app:layout_constraintHorizontal_bias="0.586"
         app:layout_constraintStart_toEndOf="@+id/two"
         app:layout_constraintTop_toTopOf="parent"
@@ -90,23 +98,25 @@
         android:layout_width="72dp"
         android:layout_height="77dp"
         android:text="@string/_1"
+        android:textColor="@color/BlueViolet"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/two"
-        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintHorizontal_bias="0.349"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.392" />
+        app:layout_constraintVertical_bias="0.391" />
 
     <Button
         android:id="@+id/four"
         android:layout_width="72dp"
         android:layout_height="77dp"
         android:text="@string/_4"
+        android:textColor="@color/BlueViolet"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/six"
-        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintHorizontal_bias="0.157"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.564" />
@@ -117,6 +127,8 @@
         android:layout_height="50dp"
         android:ems="10"
         android:text="@string/_0"
+        android:textColor="@color/DarkRed"
+        android:textStyle="bold"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -133,6 +145,8 @@
         android:layout_height="50dp"
         android:ems="10"
         android:text="@string/_0"
+        android:textStyle="bold"
+        android:textColor="@color/DarkRed"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -147,8 +161,9 @@
         android:id="@+id/textView4"
         android:layout_width="157dp"
         android:layout_height="68dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="68dp"
         android:text="@string/wickets"
+        android:textColor="@color/Black"
         android:textSize="30sp"
         app:layout_constraintEnd_toStartOf="@+id/out"
         app:layout_constraintHorizontal_bias="0.533"
@@ -159,8 +174,9 @@
         android:id="@+id/textView"
         android:layout_width="139dp"
         android:layout_height="43dp"
-        android:text="Balls"
+        android:text="@string/balls"
         android:textSize="30sp"
+        android:textColor="@color/Black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.897"
@@ -176,8 +192,10 @@
         android:layout_marginLeft="244dp"
         android:layout_marginBottom="16dp"
         android:ems="10"
+        android:textStyle="bold"
         android:inputType="number"
         android:text="@string/_0"
+        android:textColor="@color/DarkRed"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -187,12 +205,73 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="OUT"
+        android:textColor="@color/BlueViolet"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547" />
+
+    <Button
+        android:id="@+id/convert"
+        android:layout_width="203dp"
+        android:layout_height="76dp"
+        android:text="Convert In Overs"
+        android:textColor="@color/Blue"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.39"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/no"
-        app:layout_constraintVertical_bias="0.589" />
+        app:layout_constraintVertical_bias="0.119" />
+
+    <EditText
+        android:id="@+id/covertedresult"
+        android:layout_width="141dp"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0"
+        android:textColor="@color/DarkRed"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/over"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <EditText
+        android:id="@+id/extra"
+        android:layout_width="100dp"
+        android:layout_height="78dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/_0"
+        android:textColor="@color/DarkGoldenrod"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/over"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extras"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
